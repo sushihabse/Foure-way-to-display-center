@@ -1,0 +1,28 @@
+/* first way to dislplay center */
+/* .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+/* Second way to dislplay center */
+/* .btn {
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+} */
+/* Second way to dislplay center */
+/* .btn {
+    display:grid;
+    place-items: center;
+    height: 100vh;
+} */
+/* foure way to dislplay center */
+.btn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%, -50%);
+    font-size: 60px;
+}
